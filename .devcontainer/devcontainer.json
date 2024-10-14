@@ -1,0 +1,28 @@
+{
+	"name": "Rebel State - PlayNext",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/joshuanianji/devcontainer-features/mount-pnpm-store:1": {}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [3000],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"joshbolduc.story-explorer",
+				"cstechnologies.vscode-storybook",
+				"bradlc.vscode-tailwindcss",
+				"EditorConfig.EditorConfig"
+			]
+		}
+	}
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
