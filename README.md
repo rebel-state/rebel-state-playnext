@@ -1,9 +1,11 @@
+<head>
 <style>
 .brandName {
   font-weight:bolder;
   color:orange;
 }
 </style>
+</head>
 
 <h1> Rebel State - Website</h1>
 
@@ -33,9 +35,32 @@ See the following resources for setup and configuration of the database
  + [ ] Create Smoke Tests
  
 
- 
+ ## Authentication Setup
+ This project uses NextJS for an oAuth authentication provider. Below are references and task lists for implementing this into the site.
 
- 
+ ### References
+- [NextJS Auth]()
+- [oAuth documentation]() 
+- [oAuth Providers]()
+- [Templates Integration of NextJS]() 
+
+ ### Tasklist
+ + [ ] Generate Env Properties
+ + [ ] Set properties/secrets on github
+ + [ ] Test Authentication
+ + [ ] Setup Github Authentication
+ + [ ] Setup Google Authentication
+ + [ ] Test All Authentication
+ + [ ] Create Unit and Feature Test cases
+
+
+ ## Design Phase
+ + [ ] Setup Storybook
+ + [ ] Create Style Guide
+ + [ ] Import and Create componets
+
+
+
 
 
 
